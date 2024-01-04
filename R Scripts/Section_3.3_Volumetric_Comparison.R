@@ -21,7 +21,9 @@ library(dplyr)
 #########################################################################################
 
 # Read in the Volumetric .csv data 
-Volumetric.Data <- read.csv("D:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 1- 3D AI Augmentation Paper/Dice Similarity Coefficient Results/Test Data Results/2023-10-10_AI_Volumetric_Comparison_Original_v3.csv")
+Volumetric.Data <- read.csv("/path/to/your/directory/2023-10-10_AI_Volumetric_Comparison_Original_v3.csv")
+
+#########################################################################################
 
 ## Total Volume ##
 
