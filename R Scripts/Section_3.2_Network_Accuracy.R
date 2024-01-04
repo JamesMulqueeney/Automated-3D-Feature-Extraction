@@ -23,7 +23,7 @@ library(dplyr)
 # Read in Data & Set up Orders # 
 
 # Load in Dice Score .csv data 
-Dice <- read.csv("/path/to/your/directory/2023-07-05_J_Mul_Dice_v2.csv")
+Dice <- read.csv("/path/to/your/directory/Dice_Score_Results.csv")
 
 # Subset the data for Original and Augmentation Data 
 original_subset <- subset(Dice, Dice$Data.Type == "Original") # subset for original data
