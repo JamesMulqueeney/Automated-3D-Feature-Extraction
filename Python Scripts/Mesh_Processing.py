@@ -8,6 +8,13 @@
 
 # Date Last Modified: 04/01/2024
 
+# Load in libraries 
+import os
+import numpy as np
+from skimage import io
+from skimage import measure
+import trimesh
+
 ###########
 
 # External
