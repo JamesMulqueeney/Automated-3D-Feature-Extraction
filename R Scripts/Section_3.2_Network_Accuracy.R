@@ -1,6 +1,6 @@
 # Paper - How many specimens make a sufficient training set for 3D feature extraction? 
 
-# Produce plots for Section 3.2 
+# Produce plots and stats for Section 3.2 
 
 # Author: James M. Mulqueeney 
 
