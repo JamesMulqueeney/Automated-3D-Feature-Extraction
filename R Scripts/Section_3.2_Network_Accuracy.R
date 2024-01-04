@@ -6,7 +6,7 @@
 
 # Date Last Modified: 04/01/2024 
 
-# Results : Section 3.2 Evaluation of the effect of the number of training images
+# Results : Section 3.2 Network accuracy
 
 #########################################################################################
 
