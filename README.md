@@ -21,4 +21,10 @@ All R Scripts used in the visualisation and statistical analyis of data are foun
 # Python Scripts 
 Python Scripts used in the analysis, mainly in the processing and generating data. These are as follows: 
 
-1. 
+1. `Batch_Tiff_Image_to_Stack_Conversion.py`: Used to concatenate single .tiff images together to produce .tiff stacks. 
+2. `Tiff_Rotation_Augmentation.py`: Used to rotate the original .tiff stack into 5 new orientations (6 outputs in total).
+3. `Volume_Measuring.py`: Used to measure the volume of each of the labels (here internal & external volumes) directly from the image. This extracts and uses the voxel size (image spacing) in the images to give the true size value. 
+4. `Mesh_Generation_From_Images.py`: Used to generate mesh files from the segmented image files through marching cubes.
+5. `Mesh_Processing.py`: Used to batch process the meshes for analysis. This includes code for decimating, smoothing and scaling (cleaning) the meshes. Code can be edited to perform these individually or all together.
+6. `Batch_Convert_Ply_to_VTK.py` : Used to batch convert .ply meshes to .vtk format for use in Deterministic Atlas Analysis.
+7. `XML_Generation.py`: Used to generate the data_set.xml file used in the Deterministic Atlas Analysis. 
