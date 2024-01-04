@@ -13,8 +13,9 @@ All data stored here is used in the results section of the paper. These data can
 # R Scripts 
 All R Scripts used in the visualisation and statistical analyis of data are found here. These are used in each of the results sections: 
 
-Section 3.1 - `Section_3.1_Early_stopping_vs_200_epochs.R`
-Section 3.2 - `Section_3.2_Network_Accuracy.R' 
-Section 3.3 - `Section_3.3_Volumetric_Comparison.R` 
-Section 3.4 - `Section_3.4_Shape_Comparison.R`
+1. Section 3.1 - `Section_3.1_Early_stopping_vs_200_epochs.R`
+2. Section 3.2 - `Section_3.2_Network_Accuracy.R`
+3. Section 3.3 - `Section_3.3_Volumetric_Comparison.R` 
+4. Section 3.4 - `Section_3.4_Shape_Comparison.R`
 
+# Python Scripts 
