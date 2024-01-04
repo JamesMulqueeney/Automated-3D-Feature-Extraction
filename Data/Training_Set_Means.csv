@@ -1,0 +1,13 @@
+Name.of.Training.Set,Mean_Dice
+Aug_T0_AI_1_Images,0.92503
+Aug_T1_AI_2_Images,0.93610
+Aug_T2_AI_4_Images,0.94570
+Aug_T3_AI_8_Images,0.95967
+Aug_T4_AI_16_Images,0.96747
+Aug_T5_AI_20_Images,0.96823
+T0_AI_1_Images,0.85653
+T1_AI_2_Images,0.90223
+T2_AI_4_Images,0.94070
+T3_AI_8_Images,0.95507
+T4_AI_16_Images,0.96197
+T5_AI_20_Images,0.96227
