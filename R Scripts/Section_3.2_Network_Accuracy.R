@@ -73,7 +73,7 @@ means <- Dice %>%
 mean_df <- data.frame(Name.of.Training.Set = means$Name.of.Training.Set, Mean_Dice = means$mean_dice)
 
 # Export to a CSV file
-write.csv(mean_df, "D:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 1- 3D AI Augmentation Paper/Dice Similarity Coefficient Results/Training Data Results/Training_Set_Means.csv", row.names = FALSE)
+write.csv(mean_df, "/path/to/your/directory/Training_Set_Means.csv", row.names = FALSE)
 
 # Print the new dataframe
 print(mean_df)
