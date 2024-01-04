@@ -23,7 +23,7 @@ library(dplyr)
 # Internal Shape #
 
 # Read in the Internal shape .csv data 
-Internal.Shape <- read.csv("D:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 1- 3D AI Augmentation Paper/Dice Similarity Coefficient Results/Test Data Results/Internal Mesh Shape/Attempt 2/2023-10-13_Internal_Shape_Comparison_v3.csv")
+Internal.Shape <- read.csv("/path/to/your/directory/Attempt 2/2023-10-13_Internal_Shape_Comparison_v3.csv")
 
 #########################################################################################
 
