@@ -23,7 +23,7 @@ library(dplyr)
 # Internal Shape #
 
 # Read in the Internal shape .csv data 
-Internal.Shape <- read.csv("/path/to/your/directory/Attempt 2/Internal_Shape_Comparison_Data.csv")
+Internal.Shape <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 1- 3D AI Augmentation Paper/Final Manuscript + Data/Data/Internal_Shape_Comparison_Data.csv")
 
 #########################################################################################
 
@@ -83,8 +83,8 @@ P8 <- ggplot(Internal.Shape, aes(x = Man.PC2, y = AI.PC2, color = as.factor(Numb
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"),axis.ticks = element_line(colour = "black"))+
   geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "black", size=1) +
-  scale_x_continuous(limits = c(-0.035, 0.040)) +
-  scale_y_continuous(limits = c(-0.035, 0.040))  
+  scale_x_continuous(limits = c(-0.05, 0.045)) +
+  scale_y_continuous(limits = c(-0.05, 0.045))  
 
 P8
 
@@ -114,8 +114,8 @@ P9 <- ggplot(Internal.Shape, aes(x = Man.PC3, y = AI.PC3, color = as.factor(Numb
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"), axis.ticks = element_line(colour = "black"))+
   geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "black", size=1) +
-  scale_x_continuous(limits = c(-0.040, 0.040)) +
-  scale_y_continuous(limits = c(-0.040, 0.040))  
+  scale_x_continuous(limits = c(-0.05, 0.045)) +
+  scale_y_continuous(limits = c(-0.05, 0.045))  
 
 P9
 
@@ -137,23 +137,23 @@ print(coefficients_df)
 # External Shape # 
 
 # Read in the External shape .csv data 
-External.Shape <- read.csv("/path/to/your/directory/Attempt 2/External_Shape_Comparison_Data.csv")
+External.Shape <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 1- 3D AI Augmentation Paper/Final Manuscript + Data/Data/External_Shape_Comparison_Data.csv")
 
 #########################################################################################
 
 # PC1 # 
 
 # Figure 7b - PC1 of External Shape 
-P10 <- ggplot(External.Shape, aes(x = Man.PC1, y = AI.PC1, color = as.factor(Number.of.Specimens), linetype=Data.Type)) +
+P10 <- ggplot(External.Shape, aes(x = Man.PC1, y = AI.PC1, color = as.factor(Number.of.Specimens), linetype=Data.Type, shape = Data.Type)) +
   geom_point(size = 1.5) +
   geom_smooth(method = "lm", se = FALSE, size = 1, ) +
-  labs(x = "Manual Shape (PC1)", y = "AI Shape (PC1)", color ="Number of Specimens", linetype = "Data Type", shape = "Data Type") +
+  labs(x = "Manual Shape (PC1)", y = "AI Shape (PC1)",color ="Number of Specimens", linetype = "Data Type", shape = "Data Type") +
   theme_minimal() +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-        panel.background = element_blank(), axis.line = element_line(colour = "black"))+
+        panel.background = element_blank(), axis.line = element_line(colour = "black"), axis.ticks = element_line(colour = "black"))+
   geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "black", size=1) +
-  scale_x_continuous(limits = c(-0.05, 0.05)) +
-  scale_y_continuous(limits = c(-0.05, 0.05))   
+  scale_x_continuous(limits = c(-0.05, 0.045)) +
+  scale_y_continuous(limits = c(-0.05, 0.045))     
 
 P10 
 
@@ -189,16 +189,16 @@ print (r_squared_max)
 # PC2 #
 
 # Figure 7d - PC2 of External Shape 
-P11 <- ggplot(External.Shape, aes(x = Man.PC2, y = AI.PC2, color = as.factor(Number.of.Specimens), linetype=Data.Type)) +
+P11 <- ggplot(External.Shape, aes(x = Man.PC2, y = AI.PC2, color = as.factor(Number.of.Specimens), linetype=Data.Type, shape = Data.Type)) +
   geom_point(size = 1.5) +
   geom_smooth(method = "lm", se = FALSE, size = 1, ) +
-  labs(x = "Manual Shape (PC2)", y = "AI Shape (PC2)", color ="Number of Specimens", linetype = "Data Type", shape = "Data Type") +
+  labs(x = "Manual Shape (PC2)", y = "AI Shape (PC2)",color ="Number of Specimens", linetype = "Data Type", shape = "Data Type") +
   theme_minimal() +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-        panel.background = element_blank(), axis.line = element_line(colour = "black"))+
+        panel.background = element_blank(), axis.line = element_line(colour = "black"), axis.ticks = element_line(colour = "black"))+
   geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "black", size=1) +
-  scale_x_continuous(limits = c(-0.050, 0.045)) +
-  scale_y_continuous(limits = c(-0.050, 0.045))  
+  scale_x_continuous(limits = c(-0.05, 0.045)) +
+  scale_y_continuous(limits = c(-0.05, 0.045))  
 
 P11
 
@@ -220,16 +220,16 @@ print(coefficients_df)
 # PC3 #
 
 # Figure 7e - PC3 of External Shape 
-P12 <- ggplot(External.Shape, aes(x = Man.PC3, y = AI.PC3, color = as.factor(Number.of.Specimens), linetype=Data.Type)) +
+P12 <- ggplot(External.Shape, aes(x = Man.PC3, y = AI.PC3, color = as.factor(Number.of.Specimens), linetype=Data.Type, shape = Data.Type)) +
   geom_point(size = 1.5) +
   geom_smooth(method = "lm", se = FALSE, size = 1, ) +
-  labs(x = "Manual Shape (PC3)", y = "AI Shape (PC3)", color ="Number of Specimens", linetype = "Data Type", shape = "Data Type") +
+  labs(x = "Manual Shape (PC3)", y = "AI Shape (PC3)",color ="Number of Specimens", linetype = "Data Type", shape = "Data Type") +
   theme_minimal() +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-        panel.background = element_blank(), axis.line = element_line(colour = "black"))+
+        panel.background = element_blank(), axis.line = element_line(colour = "black"), axis.ticks = element_line(colour = "black"))+
   geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "black", size=1) +
-  scale_x_continuous(limits = c(-0.045, 0.045)) +
-  scale_y_continuous(limits = c(-0.045, 0.045))  
+  scale_x_continuous(limits = c(-0.05, 0.045)) +
+  scale_y_continuous(limits = c(-0.05, 0.045))  
 
 P12   
 
@@ -260,3 +260,4 @@ figure_7 <- plot_grid(P10, P7, P11, P8, P12, P9, align = "h",
 
 # Display the combined plot
 print(figure_7)
+
