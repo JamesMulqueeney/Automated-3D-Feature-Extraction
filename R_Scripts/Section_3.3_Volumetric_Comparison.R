@@ -4,7 +4,7 @@
 
 # Author: James M. Mulqueeney 
 
-# Date Last Modified: 04/01/2024 
+# Date Last Modified: 13/03/2024
 
 # Results : Section 3.3 Volumetric Comparison 
 
@@ -21,7 +21,7 @@ library(dplyr)
 #########################################################################################
 
 # Read in the Volumetric .csv data 
-Volumetric.Data <- read.csv("D:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 1- 3D AI Augmentation Paper/Final Manuscript + Data/Data/Volumetric_Comparison_Data.csv")
+Volumetric.Data <- read.csv("path/to/input/Volumetric_Comparison_Data.csv")
 
 ## Total Volume ##
 
