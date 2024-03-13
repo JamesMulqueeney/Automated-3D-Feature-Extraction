@@ -4,7 +4,7 @@
 
 # Author: James M. Mulqueeney 
 
-# Date Last Modified: 04/01/2024 
+# Date Last Modified: 13/03/2024 
 
 # Results : Section 3.1 Early stopping vs. 200 epochs 
 
@@ -23,7 +23,7 @@ library(dplyr)
 # Read in Data & Set up Orders # 
 
 # Load in Dice Score .csv data 
-Dice <- read.csv("D:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 1- 3D AI Augmentation Paper/Final Manuscript + Data/Data/Dice_Score_Results.csv")
+Dice <- read.csv("path/to/input/Dice_Score_Results.csv")
 
 # Subset the data for Original and Augmentation Data 
 original_subset <- subset(Dice, Dice$Data.Type == "Original") # subset for original data
