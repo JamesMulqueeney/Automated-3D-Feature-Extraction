@@ -4,7 +4,7 @@
 
 # Author: James M. Mulqueeney 
 
-# Date Last Modified: 04/01/2024 
+# Date Last Modified: 13/03/2024
 
 # Results : Section 3.4 Shape comparison  
 
@@ -23,7 +23,7 @@ library(dplyr)
 # Internal Shape #
 
 # Read in the Internal shape .csv data 
-Internal.Shape <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 1- 3D AI Augmentation Paper/Final Manuscript + Data/Data/Internal_Shape_Comparison_Data.csv")
+Internal.Shape <- read.csv("path/to/input//Internal_Shape_Comparison_Data.csv")
 
 #########################################################################################
 
@@ -137,7 +137,7 @@ print(coefficients_df)
 # External Shape # 
 
 # Read in the External shape .csv data 
-External.Shape <- read.csv("E:/CTData/James Mulqueeney/Papers/Write Up Papers/Paper 1- 3D AI Augmentation Paper/Final Manuscript + Data/Data/External_Shape_Comparison_Data.csv")
+External.Shape <- read.csv("path/to/input/External_Shape_Comparison_Data.csv")
 
 #########################################################################################
 
