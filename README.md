@@ -1,6 +1,8 @@
 # Automated-3D-Feature-Extraction
 Code linked to the paper: How many specimens make a sufficient training set for automated 3D feature extraction? DOI:
 
+If you use this code please cite: Mulqueeney, James M., et al. "How many specimens make a sufficient training set for automated 3D feature extraction?." bioRxiv (2024): 2024-01.
+
 # Data 
 All data stored here is used in the results section of the paper. These data can be analysed/ visualised using the R scripts within the the 'R Scripts' Folder. This is as follows:
 
